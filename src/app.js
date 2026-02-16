@@ -11,7 +11,7 @@ let what = ['my homework', 'my phone', 'the car'];
 let when = ['before the class', 'when I was sleeping', 'while I was exercising', 'during my lunch', 'while I was praying'];
 
 
-function log_random_item (a, b){
+function logRandomItem (a, b){
   return Math.floor(Math.random()* (a - b) + b);
 };
 
